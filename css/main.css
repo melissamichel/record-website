@@ -1,0 +1,431 @@
+/*.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF5722; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }*/
+
+body {
+    background-color: #fff;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Ubuntu', sans-serif;
+    /*font-family: 'Merriweather Sans', sans-serif;*/
+    /* padding: 5px;*/
+}
+
+
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    text-underline-position: all;
+    color: white;
+    
+
+}
+h6 {
+    font-size: 1rem;
+}
+
+
+.hero {
+    height: 70%;
+}
+
+.hero h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6.2rem;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.hero h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.2rem;
+    /*line-height: 90px;*/
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    text-underline-position: all;
+    font-size: 2rem;
+}
+
+
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: grey;
+}
+
+.top-bar {
+    background: grey;
+}
+
+.top-bar img {
+    height: 30px;
+}
+
+.top-bar-section ul li>a {
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: normal;
+    padding-left: 0.9375rem;
+    padding: 12px 0 12px 0.9375rem;
+    text-transform: none;
+    width: 100%;
+}
+
+
+
+  
+  .full-screen {
+    position: ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column
+    /* works with row or column */
+    
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h4 {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    text-align:left;
+    text-shadow: .5px .5px .5px rgba(0, 0, 0, .6);
+  }
+
+/*  h1 {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+    letter-spacing: -2px;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+  }*/
+  
+  h1:after {
+    display: block;
+    color: #fff;
+    letter-spacing: 1px;
+   font-family: 'Ubuntu', sans-serif;
+    /*content: 'Online Record Store';*/
+    font-size: .4em;
+    text-align: center;
+  }
+  
+  .button-line {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+    opacity: .8;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: all .5s ease;
+    margin: 0 auto;
+   /* display: block;*/
+    width: 100px;
+    bottom: -20px;
+
+  }
+    
+  .button-line:hover {
+    opacity: 1;
+  }
+
+
+
+
+.taghome {
+   
+    /*background-color: hsla(316, 65%, 93%, 0.05);*/
+   padding:20px;
+   
+}
+
+figure.hero {
+    margin: 0;
+    position: relative;
+}
+
+figure.hero img {
+    width: 100%;
+}
+
+figure.hero figcaption {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+
+
+.justin {
+    padding:20px;
+/*background-image: url('../img/justin.jpg');*/
+}
+
+
+.reviews {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+
+/*.hero h3 {
+
+    text-align: center;
+    font-size: 2.6875rem;
+    line-height: 1.1;
+}*/
+
+.panel {
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: #f4f4f4;
+    /*color: #007095;*/
+    color: #f4f4f4;
+}
+
+
+.panel h4 {
+   
+    color: #5e5e5e;
+
+}
+.panel h5 {
+        color: #5e5e5e;
+        text-shadow: .5px .5px .5px rgba(0, 0, 0, .9);
+
+}
+.product-page {
+    /*background-image: url('../img/rockback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
+
+.product-description {
+    /*font-family: 'Merriweather Sans', italic;*/
+    font-size: 20px;
+    font-weight: 100;
+    font-color: #f4f3ea;
+    line-height: 5px;
+    padding-top: 30px;
+}
+
+
+.product-title {
+    font-size: 35px;
+    color: #616161;
+    line-height: 20px;
+}
+
+.product-year {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.product-record {
+    line-height: 5px;
+}
+
+.product-genre {
+    line-height: 5px;
+}
+
+#product-information {
+
+    /*background-color: #9a9c9e;*/
+  /*   border: 2px solid #cbcbcb;
+    border-radius: 5px;
+    margin: 50px;
+    line-height: 15px;*/
+    padding: 10px;
+    /*background-color: #f4f3ea;*/
+}
+
+#product-information .panel {}
+
+#product-information h3 {
+    /*font-family: 'Merriweather Sans', bold, sans-serif;*/
+    font-family: 'Ubuntu';
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    /*padding: 5px;*/
+    background-color: #616161;
+    border-radius: 5px;
+}
+
+#product-information p {
+    font-size: 15px;
+    /*font-family: 'Merriweather Sans', italic, sans-serif;*/
+}
+
+
+.current li a {
+    color: white;
+}
+
+
+
+
+
+/*aside h1 {
+    font-size: 30px;
+
+}*/
+
+footer {
+    /* background-color: #58595b;*/
+    background-color: #757575;
+   padding: 20px;
+    
+
+}
+footer ul {
+
+    list-style-type: none;
+}
+
+
+footer p {
+    line-height: 20px;
+}
+
+footer h3 {
+    font-size: 1.75rem;
+}
+
+footer img {
+   
+  /*  margin: -30px;*/
+
+}
+
+a {
+    color: #58585b;
+}
+
+.side-nav-info li a:not(.button) {
+    color: white;
+
+    height: 30px;
+    margin: -15px;
+    display: inline-block;
+}
+
+.side-nav li a:not(.button) {
+    color: white;
+    display: block;
+    height: 40px;
+    margin: 0;
+}
+
+
+
+
+
+.fa-3x {
+    font-size: 3em;
+    color: white;
+}
+
+.header {
+    padding: 20px;
+}
+.subheader {
+    padding: 20px;
+}
+
+.header h1 {
+
+    font-size:2.1rem;
+    text-align: left;
+    padding:20px;
+    text-shadow: .5px .5px .5px rgba(0, 0, 0, .9);
+
+}
+
+.header h3 {
+    font-size: 2.1rem;
+    padding:10px;
+}
+
+.subheader p{
+
+    border-left: 1px solid #ccc;
+    margin: 1em 0;
+    padding-left: 15px;
+    list-style-type: none
+    /* width: 100%;*/
+    line-height: -10px;
+    font-size: 1rem;
+
+}
+
+
+.row {
+    margin: 0 auto;
+    max-width: 62.5rem;
+    width: 100%;
+    padding: 15px;
+}
+/**/
+
+
